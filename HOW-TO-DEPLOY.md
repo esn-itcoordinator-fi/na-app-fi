@@ -75,7 +75,7 @@ The suggested IDE is [Visual Studio Code](https://code.visualstudio.com/); we in
    ```
 1. You can create as many enviroments (stages) as you like; a common (the default) configuration includes _prod_ and _dev_ stages. **Repeat this step for each of the desired stages**. From the terminal, make sure to be in the `/back-end` folder of the project, substitute the `{STAGE}` variable (based on the stage/environment you want to deploy) and run:
    ```sh
-   cdk deploy --profile {AWS_PROFILE} --context stage={STAGE} --all --require-approval never
+   cdk deploy --profile it-coordinator-aws-na-app --context stage=dev --all --require-approval never
    ```
 1. _...it will take some time!_ If prompeted, confirm all the requests to create new resources.
 1. From Visual Studio Code menu:

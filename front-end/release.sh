@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # project specific parameters
-AWS_PROFILE='esn-ga'
-DOMAIN_PROD='esn-ga.link'
-DOMAIN_DEV='dev.esn-ga.link'
+AWS_PROFILE='it-coordinator-aws-na-app'
+DOMAIN_PROD='na-esn-fi.link'
+DOMAIN_DEV='dev.na-esn-fi.link'
 
 # other parameters
 ACTION=$1
